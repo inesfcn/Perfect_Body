@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30rem;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.637);
+  color: #be76bbb0;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
