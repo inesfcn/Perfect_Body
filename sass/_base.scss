@@ -11,12 +11,13 @@
 body {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
-  background-color: #f2f6bc;
+  background-color: $apricot;
+  min-height: 100vh;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 1fr repeat(4, 1fr);
+  grid-template-rows: 1fr, repeat(4, 1fr);
   grid-gap: 3rem;
   margin: 5rem 0;
 }
